@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #00b4db; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0083b0,
+    #00b4db
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0083b0,
+    #00b4db
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: whitesmoke;
+  padding: 12px 0;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 12px;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  width: 300px;
+  height: 300px;
+}
+
+form input {
+  display: block;
+  margin: 26px 0;
+  outline: none;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #00000050;
+  width: 100%;
+  padding: 0 0 6px 6px;
+  color: #0083b0;
+  font-family: "Poppins", sans-serif;
+  font-size: small;
+  font-weight: 600;
+}
+
+form input::placeholder {
+  color: #00000050;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  background-color: #0083b0;
+  padding: 8px 24px;
+  outline: none;
+  border-radius: 12px;
+  border: none;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: medium;
+}
+
+form button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+form p {
+  color: #00000095;
+  font-weight: 600;
+  font-size: medium;
+  margin: 18px 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0083b0;
+  display: inline-block;
+  margin-left: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+  font-weight: 600;
+}
